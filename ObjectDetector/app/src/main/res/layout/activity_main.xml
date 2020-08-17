@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/ivImage1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:id="@+id/tvKeyPointsObject1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text1" />
+        <TextView
+            android:id="@+id/tvKeyPointsObject2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text2" />
+        <TextView
+            android:id="@+id/tvKeyPointsMatches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text3" />
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text4" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

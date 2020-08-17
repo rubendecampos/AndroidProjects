@@ -1,0 +1,3 @@
+rootProject.name='ClockCenterDetection'
+include ':app'
+include ':OpenCVLibrary410'

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_load_first_image"
+        android:title="@string/action_load_first_image"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_load_second_image"
+        android:title="@string/string_action_load_second_image"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+</menu>
